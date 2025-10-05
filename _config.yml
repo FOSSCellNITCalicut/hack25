@@ -1,3 +1,16 @@
-remote_theme: ItsZariep/Tessera@0.2.0
+title: Hacktoberfest 2025 - FOSS Cell NIT Calicut
+description: Join us in celebrating open source software during Hacktoberfest 2025!
+remote_theme: pages-themes/cayman@v0.2.0
 plugins:
 - jekyll-remote-theme
+
+# Theme customization
+github:
+  is_project_page: false
+  
+# Social links (optional - customize as needed)
+# github_username: fosscellnitcalicut
+# twitter_username: your_twitter
+
+# Color scheme override (optional)
+# You can customize colors by adding a custom CSS file later

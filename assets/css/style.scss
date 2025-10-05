@@ -1,0 +1,91 @@
+---
+---
+
+@import "{{ site.theme }}";
+
+// Hacktoberfest 2025 themed colors
+$hacktoberfest-purple: #9c4668;
+$hacktoberfest-orange: #ff8c37;
+$foss-blue: #183055;
+$foss-green: #72f1b8;
+
+// Override header gradient with Hacktoberfest-inspired colors
+.page-header {
+  background: linear-gradient(135deg, $hacktoberfest-purple 0%, $foss-blue 100%);
+  padding: 5rem 1rem;
+  
+  @media screen and (min-width: 64em) {
+    padding: 5rem 6rem;
+  }
+}
+
+// Style for the main heading
+.project-name {
+  margin-top: 0;
+  margin-bottom: 0.1rem;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+  
+  @media screen and (max-width: 42em) {
+    font-size: 1.5rem;
+  }
+}
+
+.project-tagline {
+  margin-bottom: 2rem;
+  font-weight: 400;
+  opacity: 0.9;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
+}
+
+// Style links with FOSS-friendly colors
+.main-content {
+  a {
+    color: $hacktoberfest-purple;
+    
+    &:hover {
+      color: $hacktoberfest-orange;
+      text-decoration: underline;
+    }
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    color: $foss-blue;
+  }
+  
+  img {
+    max-width: 100%;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin: 1rem 0;
+  }
+  
+  blockquote {
+    padding: 0 1rem;
+    margin-left: 0;
+    color: #555;
+    border-left: 0.3rem solid $hacktoberfest-orange;
+  }
+}
+
+// Add some spacing and style improvements
+.main-content {
+  max-width: 64rem;
+  padding: 2rem 1rem;
+  margin: 0 auto;
+  font-size: 1.1rem;
+  line-height: 1.6;
+  
+  @media screen and (min-width: 64em) {
+    padding: 3rem 6rem;
+    font-size: 1.15rem;
+  }
+}
+
+// Footer styling
+.site-footer {
+  padding-top: 2rem;
+  margin-top: 2rem;
+  border-top: solid 1px #eff0f1;
+  text-align: center;
+  color: #666;
+}
