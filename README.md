@@ -8,7 +8,7 @@ What's that? [Free and open-source software](https://web.archive.org/web/2013101
 
 
 ![GNU meme](./gnumeme.jpg )
-Why is this so important? Free and open-source software has been the backbone of most critical infrastructure we use - from Android phones, to servers running Linux, to the routers connecting them, and from Apple gadgets (based on BSD) to even popular apps such as VLC.
+Why is this so important? Free and open-source software has been the backbone of most critical infrastructure we use - from Android phones, to servers running GNU/Linux, to the routers connecting them, and from Apple gadgets (based on BSD) to even popular apps such as VLC.
 
 *Free* here doesn't mean _free_ as in _free clothes_, but as in _free speech_, its all about the freedom that we have.
 
